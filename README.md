@@ -1,2 +1,2 @@
 # python
-Repo para subir las clases de Python
+Repo de Python
