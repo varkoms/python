@@ -3,17 +3,17 @@
 from datetime import datetime
 
 now = datetime.now()
-print(now) # 2023-03-02 15:16:26.545186
+print(now)  # 2023-03-10 10:23:14.688241
 
 timestamp = now.timestamp()
-print(timestamp) # 1677791969.979559
+print(timestamp)  # 1677791969.979559
 
 year_2023 = datetime(2023, 10, 12, 16, 50)
-print(year_2023) # 2023-10-12 00:00:00
+print(year_2023)  # 2023-10-12 00:00:00
 
 def print_date(date):
     # Time
-    print(date.hour) 
+    print(date.hour)
     print(date.minute)
     print(date.second)
 
@@ -41,3 +41,6 @@ print(current_date.day)
 
 # Modificando el año
 print(current_date.year)
+
+diff = year_2023 - now
+print(diff)
