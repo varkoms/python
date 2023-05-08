@@ -1,0 +1,11 @@
+{
+  "nombre": "VarkoMS",
+  "surnamne": "Varkito",
+  "edad": 34,
+  "languages": [
+    "Python",
+    "JavaScript",
+    "Swift"
+  ],
+  "website": "https://varkode.me"
+}
