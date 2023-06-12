@@ -25,8 +25,8 @@ del ciclo del programa.
 my_tuple = tuple()
 my_other_tuple = ()
 
-print(type(my_tuple))       # <class 'tuple'
-print(type(my_other_tuple)) # <class 'tuple'
+print(type(my_tuple))       # <class 'tuple'>
+print(type(my_other_tuple)) # <class 'tuple'>
 
 # Agregar elementos a la tupla
 my_tuple = (33, 1.79, "Cesar", "Mendoza", "Cesar")
