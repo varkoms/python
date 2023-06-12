@@ -1,10 +1,10 @@
 # Linked Lists
 
-### Linked lists are less rigid in their storage structure and elements are usually not stored in contiguous locations, hence they need to be stored with additional tags giving a reference to the next element.
+Linked lists are less rigid in their storage structure and elements are usually not stored in contiguous locations, hence they need to be stored with additional tags giving a reference to the next element.
 
 ## Explanation
 
-### All the struct nodes has a data item and it contains a pointer to the next struct node. It took us only a few steps to create a linked list of three nodes(one, two and three). At first we allocated the nodes and then we assigned values to the node. After assigning the value we connected the nodes from one to next and at the end using while loop printed the entire linked list.
+All the struct nodes has a data item and it contains a pointer to the next struct node. It took us only a few steps to create a linked list of three nodes(one, two and three). At first we allocated the nodes and then we assigned values to the node. After assigning the value we connected the nodes from one to next and at the end using while loop printed the entire linked list.
 
 ## Major differences between array and linked-list are listed below:
 
