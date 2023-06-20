@@ -9,3 +9,4 @@ Carpeta donde podemos ver las diferentes implementaciones de los algoritmos de o
 - Merge Sort
 - Selection Sort
 - Shell Sort
+- Quicksort
