@@ -31,3 +31,14 @@ Multiply argument a with argument b and return the result
 x = lambda a,b : a * b
 print(x(5, 6))
 ```
+
+# Anonymous Functions
+
+The following terms may be used interchangeably depending on the programming language type and culture:
+
+- Anonymous functions
+- Lambda functions
+- Lambda expressions
+- Lambda abstractions
+- Lambda form
+- Function literals
