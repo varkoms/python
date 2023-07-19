@@ -16,7 +16,7 @@ The expression is executed and the result is returned:
 
 Add 10 to argument a, and return the result:
 
-```
+```python
 x = lambda a : a + 10
 print(x(5))
 ```
