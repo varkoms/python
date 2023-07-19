@@ -23,7 +23,7 @@ print(x(5))
 
 Lambda functions can take any number of arguments.
 
-# Example
+## Example
 
 Multiply argument a with argument b and return the result
 
