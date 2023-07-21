@@ -76,3 +76,11 @@ Inheritance is the capability of one class to derive or inherit the properties f
 - **Multilevel Inheritance:** Multi-level inheritance enables a derived class to inherit properties from an immediate parent class which in turn inherits properties from his parent class.
 - **Hierarchical Inheritance:** Hierarchical-level inheritance enables more than one derived class to inherit properties from a parent class.
 - **Multiple Inheritance:** Multiple-level inheritance enables one derived class to inherit properties from more than one base class.
+
+# Python Polymorphism
+
+Polymorphism simply means having many forms. For example, we need to determine if the given species of birds fly or not, using polymorphism we can do this using a single function.
+
+## Polymorphism in Python
+
+This code demonstrates the concept of inheritance and method overriding in Python classes. It shows how subclasses can override methods defined in their parent class to provide specific behavior while still inheriting other methods from the parent class.
