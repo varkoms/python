@@ -72,7 +72,7 @@ Inheritance is the capability of one class to derive or inherit the properties f
 
 ## Types of Inheritance
 
-- _Single Inheritance:_ Single-level inheritance enables a derived class to inherit characteristics from a single-parent class.
-- _Multilevel Inheritance:_ Multi-level inheritance enables a derived class to inherit properties from an immediate parent class which in turn inherits properties from his parent class.
-- _Hierarchical Inheritance:_ Hierarchical-level inheritance enables more than one derived class to inherit properties from a parent class.
-- _Multiple Inheritance:_ Multiple-level inheritance enables one derived class to inherit properties from more than one base class.
+- **Single Inheritance:** Single-level inheritance enables a derived class to inherit characteristics from a single-parent class.
+- **Multilevel Inheritance:** Multi-level inheritance enables a derived class to inherit properties from an immediate parent class which in turn inherits properties from his parent class.
+- **Hierarchical Inheritance:** Hierarchical-level inheritance enables more than one derived class to inherit properties from a parent class.
+- **Multiple Inheritance:** Multiple-level inheritance enables one derived class to inherit properties from more than one base class.
