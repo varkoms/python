@@ -24,6 +24,38 @@ In the object-oriented programming paradigm, objects are the key element of para
 - Not suitable for all types of problems
 - Slow Speed
 
+## Example
+
+```python
+# class Emp has been defined here
+class Emp:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def info(self):
+        print("Hello, % s. You are % s old." % (self.name, self.age))
+
+# Objects of class Emp has been
+# made here
+Emps = [Emp("John", 43),
+    Emp("Hilbert", 16),
+    Emp("Alice", 30)]
+
+# Objects of class Emp has been
+# used here
+for emp in Emps:
+    emp.info()
+```
+
+**Output:**
+
+```zsh
+Hello, John. You are 43 old.
+Hello, Hilbert. You are 16 old.
+Hello, Alice. You are 30 old.
+```
+
 # Procedural programming paradigms
 
 In Procedure Oriented programming paradigms, series of computational steps are divided modules which means that the code is grouped in functions and the code is serially executed step by step so basically, it combines the serial code to instruct a computer with each step to perform a certain task. This paradigm helps in the modularity of code and modularization is usually done by the functional implementation. This programming paradigm helps in an easy organization related items without difficulty and so each file acts as a container.
@@ -40,6 +72,32 @@ In Procedure Oriented programming paradigms, series of computational steps are d
 - Not suitable for real-world objects
 - Harder to write
 
+## Example
+
+```python
+
+# Procedural way of finding sum
+# of a list
+
+mylist = [10, 20, 30, 40]
+
+# modularization is done by
+# functional approach
+def sum_the_list(mylist):
+    res = 0
+    for val in mylist:
+        res += val
+    return res
+
+print(sum_the_list(mylist))
+```
+
+**Output:**
+
+```zsh
+100
+```
+
 # Functional programming paradigms
 
 Functional programming paradigms is a paradigm in which everything is bind in pure mathematical functions style. It is known as declarative paradigms because it uses declarations overstatements. It uses the mathematical function and treats every statement as functional expression as an expression is executed to produce a value. Lambda functions or Recursion are basic approaches used for its implementation. The paradigms mainly focus on “what to solve” rather than “how to solve”. The ability to treat functions as values and pass them as an argument make the code more readable and understandable.
@@ -55,3 +113,30 @@ Functional programming paradigms is a paradigm in which everything is bind in pu
 - Low performance
 - Writing programs is a daunting task
 - Low readability of the code
+
+## Example
+
+```python
+# Functional way of finding sum of a list
+import functools
+
+
+mylist = [11, 22, 33, 44]
+
+# Recursive Functional approach
+def sum_the_list(mylist):
+
+    if len(mylist) == 1:
+        return mylist[0]
+    else:
+        return mylist[0] + sum_the_list(mylist[1:])
+
+# lambda function is used
+print(functools.reduce(lambda x, y: x + y, mylist))
+```
+
+**Output:**
+
+```zsh
+110
+```
