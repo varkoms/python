@@ -2,8 +2,8 @@
 # randomQuizGenerator.py - Creates quizzes with questions and answers in
 # random order, along with the answer key.
 
-# Commit 1 - Store the quiz data in a Dictionary
-# 
+# Commit 2 - Create the quiz file and shuffle the question order
+
 import random
 
 # The quiz data. Keys are states and values are their capitals.
@@ -26,8 +26,18 @@ capitals = {
 
 # Generate 35 quiz files.
 for quiz_num in range(35):
-    # TODO: Create the quiz and answer key files.
-    # TODO: Write out the header for the quiz
-    # TODO: Shuffle the order of the states
+    # Create the quiz and answer key files.
+    quiz_file = open(f'capitalsquiz{quiz_num + 1}.txt', 'w')
+    answer_key_file = open(f'capitalsquiz_answers{quiz_num + 1}.txt', 'w')
+    
+    # Write out the header for the quiz
+    quiz_file.write('Name:\n\nDate:\n\nPeriod:\n\n')
+    quiz_file.write((' ' * 20) + f'State Capitals Quiz (Form{quiz_num + 1})')
+    quiz_file.write('\n\n')
+
+    # Shuffle the order of the states
+    states = list(capitals.keys())
+    random.shuffle(states)
+
     # TODO: Loop through all 50 states, making a question for each.
     pass
