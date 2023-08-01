@@ -2,7 +2,7 @@
 # randomQuizGenerator.py - Creates quizzes with questions and answers in
 # random order, along with the answer key.
 
-# Commit 2 - Create the quiz file and shuffle the question order
+# Commit 3 - Create the answer options
 
 import random
 
@@ -39,5 +39,15 @@ for quiz_num in range(35):
     states = list(capitals.keys())
     random.shuffle(states)
 
-    # TODO: Loop through all 50 states, making a question for each.
-    pass
+    # Loop through all 50 states, making a question for each.
+    for question_num in range(50):
+        # Get right and wrong answers
+        correct_answer = capitals[states[question_num]]
+        wrong_answers = list(capitals.values)
+        del wrong_answers[wrong_answers.index(correct_answer)]
+        wrong_answers = random.sample(wrong_answers, 3)
+        answer_options = wrong_answers + [correct_answer]
+        random.shuffle(answer_options)
+
+        # TODO: Write the question and answer options to the quiz file.
+        # TODO: Write the answer key to a file.
