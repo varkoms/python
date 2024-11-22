@@ -42,7 +42,7 @@ def is_anagram(word_one, word_two):
     return sorted(word_one.lower()) == sorted(word_two.lower())
 
 
-# print(is_anagram("Alucard", "Dracula"))
+# print(is_anagram("si", "no"))
 
 """
 SUCESION DE FIBONACCI
@@ -110,4 +110,4 @@ def reverse(text):
     return reversed_text
 
 
-print(reverse("Hola Mundo"))
+# print(reverse("Hola Mundo"))
