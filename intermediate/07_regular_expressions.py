@@ -42,6 +42,7 @@ print(f"New: {re.sub("Expresiones Regulares", "RegEx", my_string)}")
 print(f"Another Example: {re.sub("[L|l]eccion", "LECCION", my_string)}")
 
 # PATRONES "PATTERNS"
+# Learn regular expressions: https://regex101.com
 pattern = r'[lL]eccion'
 print(re.findall(pattern, my_string))
 
@@ -70,7 +71,7 @@ posibles según el estándar completo de direcciones de correo
 (por ejemplo, direcciones que usan caracteres especiales o dominios de nivel superior muy largos).
 """
 pattern = r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$'
-email = "varkodev@example.com"
-print(re.match(pattern, email))
-print(re.search(pattern, email))
+email = "varkodev@example.com.mx"
+# print(re.match(pattern, email))
+# print(re.search(pattern, email))
 print(re.findall(pattern, email)) # ['varkodev@example.com']
