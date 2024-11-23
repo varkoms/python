@@ -1,8 +1,9 @@
-# python
+## python
+Repositorio personal de Python
 
-Repositorio personal de Python 
+## Estatus del Proyecto
+En desarrollo
 
 ## Features
-
-- Almacenar el contenido personal que genero dia con dia.
-- Experimentar con nuevos framworks, tecnologias, patrones de diseño, etc.
+- Contenido personal de estudio.
+- Experimentos con nuevos framworks, tecnologias, patrones de diseño, etc.
