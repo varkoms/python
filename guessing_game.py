@@ -1,11 +1,11 @@
 import random
 
-print("Hi, welcome to the game. This is a number guessing game.\nREMEMBER, You got 7 chances to guess the number. Let's get start the game")
+chances = 10
+guess_counter = 0
+print(f"Hi, welcome to the game. This is a number guessing game.\nREMEMBER, You got {chances} chances to guess the number. Let's get start the game")
 lower_bound = int(input("Enter Lower bound: "))
 higher_bound = int(input("Enter Upper bound: "))
 number_to_guess = random.randrange(lower_bound, higher_bound)
-chances = 7
-guess_counter = 0
 
 while guess_counter < chances:
     guess_counter += 1
