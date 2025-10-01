@@ -11,11 +11,12 @@ print(my_bool_variable)
 
 # Cambiar tipo de dato de una variable
 my_int_to_str_variable = str(my_int_variable)
-print(my_int_to_str_variable) # 5
-print(type(my_int_to_str_variable)) # <class 'str'>
+print(my_int_to_str_variable)  # 5
+print(type(my_int_to_str_variable))  # <class 'str'>
 
 # Imprimir multiples variables
-print(type(print(my_string_variable, my_int_to_str_variable, my_bool_variable))) # <class 'NoneType'>
+# <class 'NoneType'>
+print(type(print(my_string_variable, my_int_to_str_variable, my_bool_variable)))
 
 # Nombres de variables no aceptados
 '''
