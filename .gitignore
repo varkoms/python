@@ -4,3 +4,4 @@ __pycache__
 docker-compose.yml
 venv
 .vscode
+files/ # Ignore all files in the files directory
