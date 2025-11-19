@@ -6,7 +6,7 @@ import csv
 
 # MANEJO DE ARCHIVOS TXT
 
-txt_file = open("my_file.txt", "w+") # Abrir el archivo en modo escritura plus
+txt_file = open("files/my_file.txt", "w+") # Abrir el archivo en modo escritura plus
 
 # print(txt_file.read())
 # print(txt_file.read(10)) # Lee solo los primeros 10 caracteres del archivo
@@ -24,10 +24,10 @@ txt_file.write("\nEstoy aprendiendo Python")
 txt_file.close()
 
 # Eliminar el archivo del sistema.
-# os.remove("my_file.txt")
+# os.remove("files/my_file.txt")
 
 # MANEJANDO ARCHIVOS JSON
-json_file = open("my_file.json", "w+")
+json_file = open("files/my_file.json", "w+")
 
 json_text = {
     "nombre": "VarkoMS",
@@ -41,7 +41,7 @@ json.dump(json_text, json_file, indent=2)
 
 json_file.close()
 
-with open("my_file.json") as my_other_file:
+with open("files/my_file.json") as my_other_file:
     for line in my_other_file.readlines():
         print(line)
 
