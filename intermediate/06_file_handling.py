@@ -11,11 +11,8 @@ txt_file = open("my_file.txt", "w+") # Abrir el archivo en modo escritura plus
 # print(txt_file.read())
 # print(txt_file.read(10)) # Lee solo los primeros 10 caracteres del archivo
 # print(txt_file.readline()) # Lee linea por linea el archivo
-# print(txt_file.readline()) # Lee linea por linea el archivo
 
-#print(txt_file.readlines()) # Retorna una lista de cada linea del archivo separada por comas.
-
-txt_file.write("Hola, me llamo Varko\nAmo el desarrollo de software!\nTrabajo como QA analyst\ny me encanta el cafe")
+txt_file.write("Hola, soy Varko\nAmo el desarrollo de software!\nTrabajo como QA analyst\ny me encanta el cafe ☕️")
 
 # Se puede iterar sobre cada linea e imprimirlas de manera legible
 for line in txt_file.readlines():
